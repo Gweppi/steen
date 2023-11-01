@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Steen Stijn</title>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.99d0cc51.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.c96ba27b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.b753f230.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.9222aaa5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.a21d6cee.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.712ce472.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.95a2bb5c.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="w-screen h-screen" data-svelte-h="svelte-ymsjkx"><flex class="flex flex-col w-full h-full justify-center items-center"><img class="animate-spin-slow" src="stone.png" alt=""> <div class="flex flex-col pt-10 justify-center text-center gap-5"><h1 class="text-8xl font-bold">Ik ben Stijn</h1> <p class="text-3xl">Ik studeer stenen.</p></div></flex></div> 
+			
+			<script>
+				{
+					__sveltekit_1tnh3rw = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.c96ba27b.js"),
+						import("./_app/immutable/entry/app.9222aaa5.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
